@@ -18,6 +18,7 @@ min-height: 90vh;
 } 
 header { 
 display: flex;
+Position: relative;
 top: 0; 
 } 
 main { 
