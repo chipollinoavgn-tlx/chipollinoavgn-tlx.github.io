@@ -26,10 +26,6 @@ flex-grow: 1;
 footer { 
 background: #000000; 
 }
-top-fixed {
-position: relative;
-top: 0;
-}
 #header {
 position: relative;
 top: 0;
