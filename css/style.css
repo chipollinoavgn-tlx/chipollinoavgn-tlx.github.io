@@ -1,4 +1,4 @@
-/* Theme Name: ChipollinoAVGN
+/*Theme Name: ChipollinoAVGN
 Version: 1.0
 Description: Create. Optimize. Update.
 Author: ChipollinoAVGN Team 
@@ -18,7 +18,7 @@ padding: 0;
 .page {
 display: flex; 
 flex-direction: column; 
-min-height: 90vh; 
+min-height: 100vh; 
 } 
 main { 
 flex-grow: 1; 
