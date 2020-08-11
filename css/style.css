@@ -18,7 +18,7 @@ padding: 0;
 .page {
 display: flex; 
 flex-direction: column; 
-min-height: 80vh; 
+min-height: 90vh; 
 } 
 main { 
 flex-grow: 1; 
@@ -26,7 +26,7 @@ flex-grow: 1;
 footer { 
 background: #000000; 
 }
-header {
+top-fixed {
 position: relative;
 top: 0;
 }
