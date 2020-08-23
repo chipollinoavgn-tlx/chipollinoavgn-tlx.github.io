@@ -1,17 +1,3 @@
-COOL AND RESPONSIVE BUTTONS WITH A FEW LINES OF CSS
-In the last years, the web has been invaded by the cool buttons provided by libraries like Bootstrap.
-Even if these libraries are cool and feature rich, they're also really heavy, and it's a waste to load hundreds of kilobytes if you need to show just one button.
-
-In this article, we'll see some really cool looking responsive buttons using only a few lines of CSS.
-I will be using the Roboto Light font a lot, so you might want to download it.
-You are free to copy, modify and use this code as you wish.
-
-All the buttons shown here can scale accordingly to the font-size attribute, and should work in any relatively recent browser.
-
-BUTTON 1
-Button
-Another button
-CSS
 a.button1{
  display:inline-block;
  padding:0.35em 1.2em;
