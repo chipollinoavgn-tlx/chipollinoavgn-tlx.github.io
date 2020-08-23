@@ -1,4 +1,4 @@
-a.button1{
+a.button0{
  display:inline-block;
  padding:0.35em 1.2em;
  border:0.1em solid #FFFFFF;
@@ -12,7 +12,7 @@ a.button1{
  text-align:center;
  transition: all 0.2s;
 }
-a.button1:hover{
+a.button0:hover{
  color:#000000;
  background-color:#FFFFFF;
 }
