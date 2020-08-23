@@ -1,27 +1,41 @@
+COOL AND RESPONSIVE BUTTONS WITH A FEW LINES OF CSS
+In the last years, the web has been invaded by the cool buttons provided by libraries like Bootstrap.
+Even if these libraries are cool and feature rich, they're also really heavy, and it's a waste to load hundreds of kilobytes if you need to show just one button.
 
-a.button0 {
-display:inline-block;
-padding:0.35em 1.2em
-border:0.1em solid #FFFFFF;
-margin:0 0.3em 0.3em 0;
-border-radius:0.12em;
-box-sizing: border-box;
-text-decoration:none;
-font-family:'Roboto',sans-serif;
-font-weight:300;
-color:#FFFFFF;
-text-align:center;
-transition: all 0.2s;
+In this article, we'll see some really cool looking responsive buttons using only a few lines of CSS.
+I will be using the Roboto Light font a lot, so you might want to download it.
+You are free to copy, modify and use this code as you wish.
+
+All the buttons shown here can scale accordingly to the font-size attribute, and should work in any relatively recent browser.
+
+BUTTON 1
+Button
+Another button
+CSS
+a.button1{
+ display:inline-block;
+ padding:0.35em 1.2em;
+ border:0.1em solid #FFFFFF;
+ margin:0 0.3em 0.3em 0;
+ border-radius:0.12em;
+ box-sizing: border-box;
+ text-decoration:none;
+ font-family:'Roboto',sans-serif;
+ font-weight:300;
+ color:#FFFFFF;
+ text-align:center;
+ transition: all 0.2s;
 }
-a.button0:hover{
-color:#000000;
-background-color:#FFFFFF;
+a.button1:hover{
+ color:#000000;
+ background-color:#FFFFFF;
 }
 @media all and (max-width:30em){
-a.button0{
-display:block;
-margin:0.4em auto;
-}}
+ a.button1{
+  display:block;
+  margin:0.4em auto;
+ }
+}
 
 A {
 color: #D30000;
