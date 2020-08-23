@@ -16,7 +16,7 @@ a.button0:hover{
 color:#000000;
 background-color:#FFFFFF;
 }
-@media all and (max-width:30em){
+@media all and (max-width:30px){
 a.button0{
 display:block;
 margin:0.4em auto;
