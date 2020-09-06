@@ -1,3 +1,50 @@
+a.button0{
+display:inline-block;
+padding:0.35em 1.2em;
+border:0.1em solid #FFFFFF;
+margin:0 0.3em 0.3em 0;
+border-radius:0.12em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+color:#FFFFFF;
+text-align:center;
+transition: all 0.2s;
+}
+a.button0:hover{
+color:#000000;
+background-color:#FFFFFF;
+}
+@media all and (max-width:30px){
+a.button0{
+display:block;
+margin:0.4em auto;
+}}
+
+A {
+color: #D30000;
+}
+body { 
+margin: 0; 
+padding: 0; 
+} 
+.page {
+display: flex; 
+flex-direction: column; 
+min-height: 100vh; 
+} 
+main { 
+flex-grow: 1; 
+} 
+footer { 
+background: #000000; 
+}
+#header {
+position: relative;
+top: 0;
+}
+
 /*
 * Orson http://en.orson.io , autreplanete http://www.autreplanete.com/ 
 *  
