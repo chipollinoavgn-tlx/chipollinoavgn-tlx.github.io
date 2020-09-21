@@ -21,7 +21,11 @@ a.button0{
 display:block;
 margin:0.4em auto;
 }}
-
+.round {
+border-radius: 100px;
+border: 3px solid green;
+box-shadow: 0 0 7px #666
+}
 A {
 color: #D30000;
 }
