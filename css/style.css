@@ -24,6 +24,11 @@ margin:0.4em auto;
 .round {
 border-radius: 50%;
 }
+.grow:hover {
+-webkit-transform: scale(1.2);
+-хms-transform: scale(1.2);
+transform: scale(1.2);
+}
 A {
 color: #D30000;
 }
