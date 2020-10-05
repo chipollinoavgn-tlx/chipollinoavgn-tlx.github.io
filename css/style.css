@@ -51,6 +51,16 @@ body,
   margin-top: -80px;
   background-color:#000000;
 }
+.css-adaptive {
+display: block;
+max-width: 100%;
+height: auto;
+}
+#404 { 
+position: relative;
+left: 100px;
+ }
+
 
 /*!
  * Bootstrap v4.0.0-beta.2 (https://getbootstrap.com)
