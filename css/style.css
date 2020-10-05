@@ -32,24 +32,24 @@ transform: scale(1.2);
 A {
 color: #D30000;
 }
-body { 
-margin: 0; 
-padding: 0; 
-} 
-.page {
-display: flex; 
-flex-direction: column; 
-min-height: 100vh; 
-} 
-main { 
-flex-grow: 1; 
-} 
-footer { 
-background: #000000; 
+
+* {
+  margin: 0;
+  padding: 0;
 }
-#header {
-position: relative;
-top: 0;
+html,
+body,
+.wrapper {
+  height: 100%;
+}
+.content {
+  box-sizing: border-box;
+  min-height: 100%;
+  padding-bottom: 90px;
+}
+.footer {
+  height: 80px;
+  margin-top: -80px;
 }
 
 /*!
