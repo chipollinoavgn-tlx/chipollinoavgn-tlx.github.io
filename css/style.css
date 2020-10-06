@@ -38,10 +38,10 @@ color: #D30000;
 }
 html,
 body,
-.wrapper { 
+.wr0apper { 
   height: 100%;
 }
-.wrapper {
+#page {
   display: flex; 
   flex-direction: column; 
   min-height: 100vh; 
@@ -54,7 +54,7 @@ main {
   min-height: 100%;
   padding-bottom: 90px;
 }
-.footer {
+.fo-oter {
   height: 80px;
   margin-top: -80px;
   background-color:#000000;
