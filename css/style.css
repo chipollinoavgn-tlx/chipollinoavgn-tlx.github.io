@@ -45,9 +45,10 @@ height: auto;
 #404 { 
 position: relative;
 left: 100px;
- }
-
-
+}
+.container-fluid {
+  align: center;
+}
 * {
   margin: 0;
   padding: 0;
