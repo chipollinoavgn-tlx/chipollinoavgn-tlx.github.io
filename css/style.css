@@ -32,28 +32,6 @@ transform: scale(1.2);
 A {
 color: #D30000;
 }
-* {
-  margin: 0;
-  padding: 0;
-}
-html,
-body,
-.wr0apper { 
-  height: 100%;
-}
-#page {
-  display: flex; 
-  flex-direction: column; 
-  min-height: 100vh; 
-}
-main {
-  flex-grow: 1;
-}
-.content {
-  box-sizing: border-box;
-  min-height: 100%;
-  padding-bottom: 90px;
-}
 .fo-oter {
   height: 80px;
   margin-top: -80px;
@@ -68,6 +46,24 @@ height: auto;
 position: relative;
 left: 100px;
  }
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+.wrapper {
+  display: table;
+  height: 100%;
+}
+.content {
+  display: table-row;
+  height: 100%;
+}
 
 
 /*!
