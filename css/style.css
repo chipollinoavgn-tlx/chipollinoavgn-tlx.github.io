@@ -1,3 +1,26 @@
+.imgblock3 {
+    position: relative;
+   display: inline-block;
+}
+.imgblock3 img {
+    height: 200px;
+    width: 300px;
+}
+.imgblock3  span {
+    left: 10px;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+}
+.imgblock3 span b {
+    background: #222;
+    color: #fff;
+    font: 16px/34px arial;
+    padding: 6px 10px;
+    white-space: nowrap;
+    border-radius: 3px;
+}
+
 a.button0{
 display:inline-block;
 padding:0.35em 1.2em;
