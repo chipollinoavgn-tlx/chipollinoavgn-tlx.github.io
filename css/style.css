@@ -1553,7 +1553,7 @@ pre {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #495057;
+  color: #777e85;
   background-color: #111111;
   background-clip: padding-box;
   border: 1px solid #6c757d;
@@ -1588,7 +1588,7 @@ input[type="month"].form-control {
   appearance: none; }
 
 select.form-control:focus::-ms-value {
-  color: #495057;
+  color: #5f656b;
   background-color: #111111; }
 
 .form-control-file,
